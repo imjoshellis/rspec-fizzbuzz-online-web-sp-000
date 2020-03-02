@@ -12,10 +12,10 @@ def fizzbuzz(n)
     buzz = "Buzz"
   end
   
-  if fizz+buzz != ""
-    return fizz+buzz
-  else 
+  if fizz + buzz == ""
     return NIL
+  else 
+    return fizz + buzz
   end
   
 end
